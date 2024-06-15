@@ -1,0 +1,40 @@
+	"outlineColor": "36363c",
+  "type": "mech",
+  "name": "insect",
+  "description": "we dont know anthing about them",
+	"speed": 0.9,
+	"hitSize": 8,
+	"health": 430,
+	"faceTarget": true,
+	"armor": 1,
+	"range": 150,
+	"rotateSpeed": 3,
+"mechFrontSway": 0.3,
+"mechSideSway": 0.3,
+"mechStepParticles": true,
+"mechStepShake": 0.3,
+	"allowLegStep": true,
+	"immunities": [
+		"freezing"
+	],
+targetAir: true
+weapons: [
+  {
+    shootOnDeath: true
+    reload: 24
+    shootCone: 180
+    ejectEffect: none
+    shootSound: explosion
+    x: 0
+    shootY: 0
+    bullet: {
+      type: ExplosionBulletType
+      hitSound: explosion
+      splashDamageRadius: 25
+      splashDamage: 90
+      killShooter: true
+	  
+    }
+	}
+]
+research: copper
