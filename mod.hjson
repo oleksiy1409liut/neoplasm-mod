@@ -1,0 +1,18 @@
+{
+    displayName: neoplasm mod
+    name: neoplasmmod
+
+    author:
+        '''
+oleksiy
+        '''
+
+    description:
+        '''
+NEOPLASM
+        '''
+
+    subtitle: "play mindustry expansion too"
+    minGameVersion: 144.3
+    version: "0.1"
+}
